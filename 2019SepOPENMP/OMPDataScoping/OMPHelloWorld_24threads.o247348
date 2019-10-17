@@ -1,0 +1,142 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+X is a shared varible for all threads 
+X is initialised to 5 before the #pragma omp parallel region 
+X is updated by thread 0 to value 6 
+X is updated by thread 3 to value 6 
+X is updated by thread 2 to value 6 
+X is updated by thread 8 to value 6 
+X is updated by thread 14 to value 6 
+X is updated by thread 5 to value 6 
+X is updated by thread 20 to value 6 
+X is updated by thread 6 to value 6 
+X is updated by thread 10 to value 6 
+X is updated by thread 12 to value 6 
+X is updated by thread 17 to value 6 
+X is updated by thread 19 to value 6 
+X is updated by thread 16 to value 6 
+X is updated by thread 7 to value 6 
+X is updated by thread 13 to value 6 
+X is updated by thread 15 to value 6 
+X is updated by thread 21 to value 6 
+X is updated by thread 22 to value 6 
+X is updated by thread 9 to value 6 
+X is updated by thread 18 to value 6 
+X is updated by thread 4 to value 6 
+X is updated by thread 1 to value 6 
+X is updated by thread 11 to value 6 
+X is updated by thread 23 to value 6 
+Value of X at the end of the parallel region is: 6 
+X is reset to 2 before the #pragma omp parallel for region 
+X is updated by thread 0 to value 1 
+X is updated by thread 3 to value 1 
+X is updated by thread 8 to value 1 
+X is updated by thread 7 to value 1 
+X is updated by thread 2 to value 1 
+X is updated by thread 5 to value 1 
+X is updated by thread 6 to value 1 
+X is updated by thread 1 to value 1 
+X is updated by thread 9 to value 1 
+X is updated by thread 4 to value 1 
+Value of X at the end of the parallel for region is: 1 
+X is a Private varible for all threads 
+X is not explicitly initialised in the parallel region. Could result in bad data/garbage 
+X is initialised to 5 before the #pragma omp parallel region 
+X is updated by thread 0 to value 2 
+X is updated by thread 20 to value -41920 
+X is updated by thread 1 to value -41920 
+X is updated by thread 6 to value -41920 
+X is updated by thread 5 to value -41920 
+X is updated by thread 8 to value -41920 
+X is updated by thread 23 to value -41920 
+X is updated by thread 14 to value -41920 
+X is updated by thread 3 to value -41920 
+X is updated by thread 17 to value -41920 
+X is updated by thread 9 to value -41920 
+X is updated by thread 16 to value -41920 
+X is updated by thread 18 to value -41920 
+X is updated by thread 11 to value -41920 
+X is updated by thread 4 to value -41920 
+X is updated by thread 7 to value -41920 
+X is updated by thread 10 to value -41920 
+X is updated by thread 12 to value -41920 
+X is updated by thread 21 to value -41920 
+X is updated by thread 13 to value -41920 
+X is updated by thread 15 to value -41920 
+X is updated by thread 19 to value -41920 
+X is updated by thread 22 to value -41920 
+X is updated by thread 2 to value -41920 
+Value of X at the end of the parallel region is: 5 
+X is reset to 2 before the #pragma omp parallel for region 
+X is not explicitly initialised in the parallel region. Could result in bad data/garbage 
+X is updated by thread 0 to value 1 
+X is updated by thread 6 to value 7 
+X is updated by thread 7 to value 8 
+X is updated by thread 5 to value 6 
+X is updated by thread 2 to value 3 
+X is updated by thread 1 to value 2 
+X is updated by thread 3 to value 4 
+X is updated by thread 4 to value 5 
+X is updated by thread 9 to value 10 
+X is updated by thread 8 to value 9 
+Value of X at the end of the parallel for region is: 0 
+t is updated by thread 0 to value 2 
+t is updated by thread 20 to value 22 
+t is updated by thread 18 to value 20 
+t is updated by thread 7 to value 9 
+t is updated by thread 22 to value 24 
+t is updated by thread 4 to value 6 
+t is updated by thread 19 to value 21 
+t is updated by thread 8 to value 10 
+t is updated by thread 5 to value 7 
+t is updated by thread 1 to value 3 
+t is updated by thread 16 to value 18 
+t is updated by thread 9 to value 11 
+t is updated by thread 3 to value 5 
+t is updated by thread 17 to value 19 
+t is updated by thread 13 to value 15 
+t is updated by thread 15 to value 17 
+t is updated by thread 14 to value 16 
+t is updated by thread 23 to value 25 
+t is updated by thread 21 to value 23 
+t is updated by thread 6 to value 8 
+t is updated by thread 11 to value 13 
+t is updated by thread 10 to value 12 
+t is updated by thread 2 to value 4 
+t is updated by thread 12 to value 14 
+Value of t after the parallel region is 2 
+t is updated by thread 0 to value 2 
+t is updated by thread 5 to value 7 
+t is updated by thread 3 to value 5 
+t is updated by thread 6 to value 8 
+t is updated by thread 7 to value 9 
+t is updated by thread 4 to value 6 
+t is updated by thread 9 to value 11 
+t is updated by thread 1 to value 3 
+t is updated by thread 8 to value 10 
+t is updated by thread 2 to value 4 
+Value of t after the parallel region is 2 
+Value of m after the parallel region is 81 
+t is updated by thread 0 to value 0 
+t is updated by thread 4 to value 16 
+m is updated by thread 4 to value 16 
+t is updated by thread 1 to value 1 
+m is updated by thread 1 to value 1 
+t is updated by thread 7 to value 49 
+m is updated by thread 7 to value 49 
+t is updated by thread 5 to value 25 
+m is updated by thread 5 to value 25 
+t is updated by thread 9 to value 81 
+m is updated by thread 9 to value 81 
+t is updated by thread 2 to value 4 
+m is updated by thread 2 to value 4 
+t is updated by thread 6 to value 36 
+m is updated by thread 6 to value 36 
+t is updated by thread 8 to value 64 
+m is updated by thread 8 to value 64 
+m is updated by thread 0 to value 0 
+t is updated by thread 3 to value 9 
+m is updated by thread 3 to value 9 
+Value of t after the parallel region is 81 
+Value of m after the parallel region is 81 
+Application 1167381 resources: utime ~0s, stime ~0s, Rss ~4636, inblocks ~68, outblocks ~0

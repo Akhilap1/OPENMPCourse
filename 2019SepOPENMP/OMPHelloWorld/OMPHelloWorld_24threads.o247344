@@ -1,0 +1,17 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Number of Processors = 48 
+Max Number of Threads = 24 
+Number of Threads outside parallel region = 1 
+Hello World from thread = 0
+Hello World from thread = 8
+Hello World from thread = 6
+Hello World from thread = 1
+Hello World from thread = 2
+Hello World from thread = 3
+Hello World from thread = 5
+Hello World from thread = 9
+Hello World from thread = 7
+Hello World from thread = 4
+Number of threads inside parallel region= 10
+Application 1167373 resources: utime ~0s, stime ~0s, Rss ~4636, inblocks ~116, outblocks ~0

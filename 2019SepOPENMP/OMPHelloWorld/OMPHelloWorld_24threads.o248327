@@ -1,0 +1,36 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP='201511'
+  OMP_SCHEDULE='static'
+  OMP_NUM_THREADS='24'
+  OMP_DYNAMIC='TRUE'
+  OMP_NESTED='FALSE'
+  OMP_STACKSIZE='128M'
+  OMP_WAIT_POLICY='AUTO'
+  OMP_MAX_ACTIVE_LEVELS='4095'
+  OMP_THREAD_LIMIT='192'
+  OMP_PROC_BIND='auto'
+  OMP_PLACES='threads'
+  OMP_CANCELLATION='FALSE'
+  OMP_MAX_TASK_PRIORITY='0'
+  OMP_DISPLAY_ENV='TRUE'
+  OMP_DEFAULT_DEVICE='0'
+  CRAY_OMP_TASKDEP_TABLE_SIZE='997'
+OPENMP DISPLAY ENVIRONMENT END
+Number of Processors = 48 
+Max Number of Threads = 24 
+Number of Threads outside parallel region = 1 
+Hello World from thread = 0
+Hello World from thread = 3
+Hello World from thread = 2
+Hello World from thread = 9
+Hello World from thread = 5
+Hello World from thread = 6
+Hello World from thread = 8
+Hello World from thread = 4
+Hello World from thread = 7
+Hello World from thread = 1
+Number of threads inside parallel region= 10
+Application 1170460 resources: utime ~0s, stime ~0s, Rss ~4636, inblocks ~116, outblocks ~0

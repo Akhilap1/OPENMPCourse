@@ -1,0 +1,179 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Fibonacci[35] = 14930352 
+Time taken to compute Serial naive FIB[35] is 0.042022 seconds 
+0 was computed 5702887 times 
+1 was computed 9227465 times 
+2 was computed 5702887 times 
+3 was computed 3524578 times 
+4 was computed 2178309 times 
+5 was computed 1346269 times 
+6 was computed 832040 times 
+7 was computed 514229 times 
+8 was computed 317811 times 
+9 was computed 196418 times 
+10 was computed 121393 times 
+11 was computed 75025 times 
+12 was computed 46368 times 
+13 was computed 28657 times 
+14 was computed 17711 times 
+15 was computed 10946 times 
+16 was computed 6765 times 
+17 was computed 4181 times 
+18 was computed 2584 times 
+19 was computed 1597 times 
+20 was computed 987 times 
+21 was computed 610 times 
+22 was computed 377 times 
+23 was computed 233 times 
+24 was computed 144 times 
+25 was computed 89 times 
+26 was computed 55 times 
+27 was computed 34 times 
+28 was computed 21 times 
+29 was computed 13 times 
+30 was computed 8 times 
+31 was computed 5 times 
+32 was computed 3 times 
+33 was computed 2 times 
+34 was computed 1 times 
+Fibonacci[35] = 14930352 
+Time taken to compute Serial optimised FIB[35] is 0.000001 seconds 
+0 was computed 2 times 
+1 was computed 2 times 
+2 was computed 1 times 
+3 was computed 1 times 
+4 was computed 1 times 
+5 was computed 1 times 
+6 was computed 1 times 
+7 was computed 1 times 
+8 was computed 1 times 
+9 was computed 1 times 
+10 was computed 1 times 
+11 was computed 1 times 
+12 was computed 1 times 
+13 was computed 1 times 
+14 was computed 1 times 
+15 was computed 1 times 
+16 was computed 1 times 
+17 was computed 1 times 
+18 was computed 1 times 
+19 was computed 1 times 
+20 was computed 1 times 
+21 was computed 1 times 
+22 was computed 1 times 
+23 was computed 1 times 
+24 was computed 1 times 
+25 was computed 1 times 
+26 was computed 1 times 
+27 was computed 1 times 
+28 was computed 1 times 
+29 was computed 1 times 
+30 was computed 1 times 
+31 was computed 1 times 
+32 was computed 1 times 
+33 was computed 1 times 
+34 was computed 1 times 
+OPENMP Tasks for Fibonacci computation - naive implementation 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Starting OPENMP Parallel Region with 24 Threads 
+Fibonacci[35] = 9227465 
+Time taken to compute parallel FIB[35] using tasks is 9.222235 seconds 
+Thread 0 procseed 8694936 TASKS 
+Thread 1 procseed 0 TASKS 
+Thread 2 procseed 8694936 TASKS 
+Thread 3 procseed 0 TASKS 
+Thread 4 procseed -4360 TASKS 
+Thread 5 procseed 32767 TASKS 
+Thread 6 procseed -4318 TASKS 
+Thread 7 procseed 32767 TASKS 
+Thread 8 procseed -4306 TASKS 
+Thread 9 procseed 32767 TASKS 
+Thread 10 procseed -4247 TASKS 
+Thread 11 procseed 32767 TASKS 
+Thread 12 procseed -4231 TASKS 
+Thread 13 procseed 32767 TASKS 
+Thread 14 procseed -4207 TASKS 
+Thread 15 procseed 32767 TASKS 
+Thread 16 procseed -4189 TASKS 
+Thread 17 procseed 32767 TASKS 
+Thread 18 procseed -4169 TASKS 
+Thread 19 procseed 32767 TASKS 
+Thread 20 procseed 8912064 TASKS 
+Thread 21 procseed 0 TASKS 
+Thread 22 procseed 8911888 TASKS 
+Thread 23 procseed 0 TASKS 
+OPENMP Tasks for Fibonacci computation - improved implementation 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Fibonacci[35] = 14930352 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Starting OPENMp Parallel Region with 24 Threads 
+Time taken to compute parallel FIB[35] using tasks is 0.000085 seconds 
+Thread 0 procseed 22 TASKS 
+Thread 1 procseed 2 TASKS 
+Thread 2 procseed 0 TASKS 
+Thread 3 procseed 0 TASKS 
+Thread 4 procseed 0 TASKS 
+Thread 5 procseed 0 TASKS 
+Thread 6 procseed 0 TASKS 
+Thread 7 procseed 24 TASKS 
+Thread 8 procseed 0 TASKS 
+Thread 9 procseed 0 TASKS 
+Thread 10 procseed 1 TASKS 
+Thread 11 procseed 0 TASKS 
+Thread 12 procseed 0 TASKS 
+Thread 13 procseed 0 TASKS 
+Thread 14 procseed 0 TASKS 
+Thread 15 procseed 1 TASKS 
+Thread 16 procseed 1 TASKS 
+Thread 17 procseed 0 TASKS 
+Thread 18 procseed 0 TASKS 
+Thread 19 procseed 0 TASKS 
+Thread 20 procseed 14 TASKS 
+Thread 21 procseed 0 TASKS 
+Thread 22 procseed 0 TASKS 
+Thread 23 procseed 0 TASKS 
+Application 1167417 resources: utime ~221s, stime ~1s, Rss ~107756, inblocks ~48, outblocks ~0
